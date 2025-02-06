@@ -1,0 +1,17 @@
+body {
+	color: black;
+	background-color: #eeeeee;
+	font-family: "JetBrains Mono", monospace;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: auto;
+	max-width: 900px;
+}
+
+article {
+	background-color: #eeeefe;
+}
+
+.post-summary {
+    margin-left: 1em;
+}

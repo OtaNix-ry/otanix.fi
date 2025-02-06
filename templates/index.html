@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+        {% if config.title %}
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        {% endif %}
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        {% else %}
+        <meta name="description" content="{{ config.description }}">
+        {% endif %}
+
+        <link rel="stylesheet" href="{{ get_url(path="styles.css") }}" integrity="sha384-{{ get_hash(path="styles.css", sha_type=384, base64=true) | safe }}">
+
+
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body>
+        <main class="main">
+            <header>
+                {% block htmltitle %}
+                <h1><a href="{{ config.base_url | safe }}">{{ config.title }}</a></h1>
+                {% endblock %}
+            </header>
+
+            {% block main %}
+
+            {% if page.content %}
+            <h1>{{ page.title }}</h1>
+            {{ page.content | safe }}
+            {% endif %}
+            {% if section.content %}
+            <h1>{{ section.title }}</h1>
+            {{ section.content | safe }}
+            {% endif %}
+
+            {% if paginator.pages %}
+            {% for page in paginator.pages %}
+            <article>
+                <header>
+                    <h2><a href="{{ page.permalink }}">{% if page.title %}{{ page.title }}{% else %}Unnamed post{% endif %}</a></h2>
+                </header>
+                <div class="post-summary">{{ page.summary | safe }}</div>
+            </article>
+            {% endfor %}
+            {% endif %}
+
+            {% for page in section.pages %}
+                <header>
+                    <h2><a href="{{ page.permalink }}">{% if page.title %}{{ page.title }}{% else %}Unnamed post{% endif %}</a></h2>
+                </header>
+                <div class="post-summary">{{ page.summary | safe }}</div>
+            {% endfor %}
+
+            {% endblock %}
+        </main>
+    </body>
+</html>
