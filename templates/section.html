@@ -7,12 +7,12 @@
     {{ section.content | safe }}
 </article>
 
-
 <!-- The loop copy-pasted from papermod -->
 {% for page in paginator.pages %}
 {% if not page.extra.is_search_page %}
 <article class="post-entry">
     <header class="entry-header">
+        <h3 style="position: relative; float: right;">{{ page.date }}</h3>
         <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
     </header>
     {% if page.summary %}

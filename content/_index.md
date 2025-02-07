@@ -2,5 +2,4 @@
 paginate_by = 10
 +++
 
-[Yhdistyksen säännöt](/säännöt.pdf)
-[Events](/events)
+[Yhdistyksen säännöt](/säännöt.pdf) | [Events](/events)
