@@ -17,4 +17,4 @@ Similarly to our first workshop, we'll have a few short presentations in the beg
 
 **WHERE?:** Y346, Otakaari 1, Espoo, Finland
 
-**HOW TO SIGN UP?:** **Sign up now via [this link](https://forms.gle/WF5CwE3MJyhBfTQc6)**
+**HOW TO SIGN UP?:** **Sign up now via [this link](https://nextcloud.someonex.net/apps/forms/s/xeFaMYjGGHR2xKD4xZM2tAZ7)**
