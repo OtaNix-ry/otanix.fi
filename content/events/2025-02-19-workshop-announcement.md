@@ -3,6 +3,8 @@ title = "Announcement: Nix workshop"
 date = "2025-02-19"
 +++
 
+<img style="width:100%" alt="nix workshop advertisement" src="/events/nix-workshop-2025-03-05/nix-workshop-2025-03-05.png">
+
 ## Nix workshop announcement
 
 We're happy to announce that after the success of our [first workshop](/events/debut), we're organizing another one!
