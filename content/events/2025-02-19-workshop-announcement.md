@@ -1,5 +1,5 @@
 +++
-title = "Announcement: Nix workshop"
+title = "OtaNix' Secret Management Workshop"
 date = "2025-02-19"
 +++
 
@@ -9,7 +9,7 @@ date = "2025-02-19"
 
 We're happy to announce that after the success of our [first workshop](/events/debut), we're organizing another one!
 The venue will again be provided by Aalto University.
-The workshop subject is "Secret management with Nix". 
+The workshop subject is **"Secret management with Nix"**. 
 Similarly to our first workshop, we'll have a few short presentations in the beginning and then move on to free form hacking and snacking!
 
 ## TLDR;
