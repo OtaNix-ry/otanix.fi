@@ -1,5 +1,5 @@
 +++
-title = "OtaNix' Secret Management Workshop"
+title = "Announcement: OtaNix Secret Management Workshop"
 date = "2025-02-19"
 +++
 
