@@ -1,17 +1,77 @@
+/* Base styles (Light Mode) */
 body {
-	color: black;
+	color: #1a1a1a;
 	background-color: #eeeeee;
 	font-family: "JetBrains Mono", monospace;
 	font-size: 1rem;
-	line-height: 1.5;
-	margin: auto;
+	line-height: 1.6;
+	margin: 2rem auto;
+	padding: 1rem;
 	max-width: 900px;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 article {
-	background-color: #eeeefe;
+	background-color: #f5f5ff;
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+	margin-bottom: 2rem;
 }
 
 .post-summary {
-    margin-left: 1em;
+	margin-left: 1.25em;
+	font-size: 0.95rem;
+	color: #333;
 }
+
+/* Dark Mode Overrides */
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #f0f0f0;
+		background-color: #1e1e1e;
+	}
+
+	article {
+		background-color: #2a2a3a;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+	}
+
+	.post-summary {
+		color: #cccccc;
+	}
+}
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+a:hover,
+a:focus {
+	/* color: #005fa3; */
+	border-bottom: 1px solid currentColor;
+}
+
+/* Dark Mode Link Styling */
+@media (prefers-color-scheme: dark) {
+	a {
+		color: #66ccff;
+	}
+}
+
+/* Light mode */
+a:visited {
+	color: #5a4fcf; /* A muted blue-purple */
+}
+
+/* Dark mode override */
+@media (prefers-color-scheme: dark) {
+	a:visited {
+		color: #b49fff; /* Softer purple for dark background */
+	}
+}
+
+
