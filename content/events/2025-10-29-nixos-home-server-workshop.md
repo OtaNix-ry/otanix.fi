@@ -3,7 +3,7 @@ title = "NixOS home server workshop"
 date = "2025-10-07"
 +++
 
-
+<!---
 > This post will be updated with slides and picture after the workshop.
 
 ## Workshop announcement
@@ -21,3 +21,16 @@ For any questions, please contact luukas.portfors@aalto.fi
 **SIGN UP?**: [https://pilvi.lajp.fi/apps/forms/s/kX26tLGEMYjtrW5XGGZJWyPz](https://pilvi.lajp.fi/apps/forms/s/kX26tLGEMYjtrW5XGGZJWyPz)
 
 <img style="width:100%" alt="nix workshop advertisement" src="/events/nix-workshop-2025-10-29/nix-workshop-2025-10-29.png">
+-->
+
+OtaNix ry organized a workshop on setting up a NixOS home server. Attendees were offered with an interactive presentation by Niklas as well as pizza, drinks and snacks.
+
+## Presentations
+
+The presentation as well as additional materials are provided in [this GitHub repository](https://github.com/OtaNix-ry/home-server-workshop)
+
+## Pictures
+
+<img style="width:100%" alt="picture with ongoing presentation" src="/events/nix-workshop-2025-10-29/IMG_20251029_162455_810.jpg">
+<img style="width:100%" alt="picture with presentation and snack table" src="/events/nix-workshop-2025-10-29/IMG_20251029_165245_148.jpg">
+<img style="width:100%" alt="picture with pizza" src="/events/nix-workshop-2025-10-29/IMG_20251029_165251_638.jpg">
