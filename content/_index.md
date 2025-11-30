@@ -6,7 +6,7 @@ paginate_by = 10
 
 OtaNix ry is a Nix user group based in Otaniemi, Espoo.
 We organize workshops and meetups every now and then.
-The group was founded in August of 2024 and it has a bit shy of 30 members.
+The group was founded in August of 2024 and it has over 30 members.
 Our Telegram-channel can be found [here](https://t.me/otanixry).
 
 ## Board

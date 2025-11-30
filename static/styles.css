@@ -9,6 +9,13 @@ body {
 	padding: 1rem;
 	max-width: 900px;
 	transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 6rem); /* 100vh - margins (4rem) - padding (2rem) */
+}
+
+.main {
+    flex: 1;
 }
 
 article {
@@ -23,6 +30,66 @@ article {
 	margin-left: 1.25em;
 	font-size: 0.95rem;
 	color: #333;
+}
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+a:hover,
+a:focus {
+	/* color: #005fa3; */
+	border-bottom: 1px solid currentColor;
+}
+
+a:visited {
+	color: #5a4fcf; /* A muted blue-purple */
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #ccc;
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.nixos-support-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: none;
+}
+
+.nixos-support-link:hover {
+    border-bottom: none;
+}
+
+.nixos-logo {
+    height: 8rem;
+    display: block;
+}
+
+/* Default Logo State (Light Mode) */
+.light-mode-logo {
+    display: block;
+}
+
+.dark-mode-logo {
+    display: none;
 }
 
 /* Dark Mode Overrides */
@@ -40,38 +107,22 @@ article {
 	.post-summary {
 		color: #cccccc;
 	}
-}
 
-a {
-	color: #0077cc;
-	text-decoration: none;
-	border-bottom: 1px solid transparent;
-	transition: color 0.2s ease, border-bottom 0.2s ease;
-}
-
-a:hover,
-a:focus {
-	/* color: #005fa3; */
-	border-bottom: 1px solid currentColor;
-}
-
-/* Dark Mode Link Styling */
-@media (prefers-color-scheme: dark) {
+    /* Links in Dark Mode */
 	a {
 		color: #66ccff;
 	}
-}
 
-/* Light mode */
-a:visited {
-	color: #5a4fcf; /* A muted blue-purple */
-}
-
-/* Dark mode override */
-@media (prefers-color-scheme: dark) {
 	a:visited {
 		color: #b49fff; /* Softer purple for dark background */
 	}
+
+    /* Logo in Dark Mode */
+    .light-mode-logo {
+        display: none;
+    }
+
+    .dark-mode-logo {
+        display: block;
+    }
 }
-
-
