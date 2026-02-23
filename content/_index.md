@@ -11,10 +11,12 @@ Our Telegram-channel can be found [here](https://t.me/otanixry).
 
 ## Board
 
-The board of OtaNix ry in 2025:
+The board of OtaNix ry in 2026:
 - Luukas Pörtfors, Chair
 - Matias Zwinger, Vice chair
 - Niklas Halonen, Secretary
-- Joonas von Lerber, Board member
+- Joonas von Lerber, Treasurer
+- Noora Kuosa, IE
+- Roy Långsjö, Board member
 
 Contact <a href="mailto:board@otanix.fi">board@otanix.fi</a>
