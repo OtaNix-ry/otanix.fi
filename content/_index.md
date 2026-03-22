@@ -17,6 +17,6 @@ The board of OtaNix ry in 2026:
 - Niklas Halonen, Secretary
 - Joonas von Lerber, Treasurer
 - Noora Kuosa, IE
-- Roy Långsjö, Board member
+- Roy Långsjö, IT
 
 Contact <a href="mailto:board@otanix.fi">board@otanix.fi</a>
