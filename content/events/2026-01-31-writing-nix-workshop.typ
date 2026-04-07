@@ -2,7 +2,7 @@
 #import "/templates/post.typ": post
 #import "/components/html.typ": img
 
-#show: post.with(title: "Writing Nix workshop", date: "2026-01-31")
+#show: post.with(title: "Writing Nix workshop", date: "2026-01-31", aliases: ("/events/writing-nix-workshop/",))
 
 /*
 Workshop announcement (archived):

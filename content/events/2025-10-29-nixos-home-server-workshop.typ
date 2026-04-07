@@ -2,7 +2,7 @@
 #import "/templates/post.typ": post
 #import "/components/html.typ": img
 
-#show: post.with(title: "NixOS home server workshop", date: "2025-10-07")
+#show: post.with(title: "NixOS home server workshop", date: "2025-10-07", aliases: ("/events/nixos-home-server-workshop/",))
 
 /*
 > This post will be updated with slides and picture after the workshop.
