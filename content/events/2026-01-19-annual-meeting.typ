@@ -1,6 +1,6 @@
 #import "/templates/post.typ": post
 
-#show: post.with(title: "OtaNix ry vuosikokous/annual meeting 2026", date: "2026-02-11")
+#show: post.with(title: "OtaNix ry vuosikokous/annual meeting 2026", date: "2026-02-11", aliases: ("/events/annual-meeting/",))
 
 
 

@@ -2,7 +2,7 @@
 #import "/templates/post.typ": post
 #import "/components/html.typ": img
 
-#show: post.with(title: "Nix meetup Helsinki", date: "2025-09-08")
+#show: post.with(title: "Nix meetup Helsinki", date: "2025-09-08", aliases: ("/events/helsinki-meetup-2025/",))
 
 /*
 This post will be updated with slides and picture after the meetup.

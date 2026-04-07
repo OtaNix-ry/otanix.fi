@@ -2,7 +2,7 @@
 #import "/templates/post.typ": post
 #import "/components/html.typ": img
 
-#show: post.with(title: "OtaNix Workshop Debut", date: "2025-01-22")
+#show: post.with(title: "OtaNix Workshop Debut", date: "2025-01-22", aliases: ("/events/debut/",))
 
 #img("/assets/events/nix-workshop-2025-01-22/nix-workshop-2025-01-22.png", alt: "nix workshop advertisement")
 
