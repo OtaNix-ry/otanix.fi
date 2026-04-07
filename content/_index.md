@@ -9,6 +9,9 @@ We organize workshops and meetups every now and then.
 The group was founded in August of 2024 and it has over 30 members.
 Our Telegram-channel can be found [here](https://t.me/otanixry).
 
+Join OtaNix ry by filling the [membership application form](https://nextcloud.otanix.fi/apps/forms/s/8BmdkJ5oYpkMNRqaBEnxwGpo).
+Membership fee in 2026 is 0€.
+
 ## Board
 
 The board of OtaNix ry in 2026:
