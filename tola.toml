@@ -1,0 +1,34 @@
+[site.info]
+title = "OtaNix Ry"
+language = "fi"
+url = "https://otanix.fi"
+description = "OtaNix ry is a Nix user group based in Otaniemi, Espoo."
+
+[site.header]
+icon = "assets/favicon.ico"
+styles = ["assets/styles.css"]
+
+[site.seo]
+auto_og = true
+
+[site.seo.feed]
+enable = true
+format = "rss"
+
+[site.seo.sitemap]
+enable = true
+
+[build]
+content = "content"
+output = "public"
+deps = ["templates", "components"]
+
+[build.assets]
+nested = [
+  "assets",
+]
+
+[build.slug]
+path = "safe"
+separator = "dash"
+case = "lower"
