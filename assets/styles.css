@@ -26,6 +26,10 @@ article {
 	margin-bottom: 2rem;
 }
 
+article img {
+	width: 100%;
+}
+
 .post-summary {
 	margin-left: 1.25em;
 	font-size: 0.95rem;

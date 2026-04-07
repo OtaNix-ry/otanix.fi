@@ -3,6 +3,9 @@
   pkgs ? import nixpkgs { },
   lib ? pkgs.lib,
 }:
+let
+  tola = pkgs.callPackage ./nix/tola.nix { };
+in
 {
   web = pkgs.stdenvNoCC.mkDerivation {
     name = "otanix-fi";
@@ -15,19 +18,20 @@
         fileset = fs.unions (
           map fs.maybeMissing [
             ./content
-            ./static
+            ./assets
             ./templates
-            ./config.toml
-            ./CNAME
+            ./components
+            ./tola.toml
           ]
         );
       };
-    buildPhase = "${pkgs.lib.getExe pkgs.pkgsBuildHost.zola} build";
+    nativeBuildInputs = [ tola ];
+    buildPhase = "tola build";
     installPhase = "cp -r public $out";
   };
   shell = pkgs.mkShellNoCC {
     packages = [
-      pkgs.zola
+      tola
     ];
   };
 }
