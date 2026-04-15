@@ -26,7 +26,7 @@ OtaNix ry organized a workshop on the topic of writing nix. Attendees were offer
 
 == Presentations
 
-The presentation and some additional materials are provided in #link("https://github.com/OtaNix-ry/workshops")[this GitHub respository].
+The presentation and some additional materials are provided in #link("https://github.com/OtaNix-ry/workshop")[this GitHub respository].
 
 == Pictures
 
