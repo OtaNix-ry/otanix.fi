@@ -26,10 +26,16 @@ OtaNix ry organized a workshop on the topic of writing nix. Attendees were offer
 
 == Presentations
 
-The presentation and some additional materials are provided in #link("https://github.com/OtaNix-ry/workshop")[this GitHub respository].
+The presentation and some additional materials are provided in #link("https://github.com/OtaNix-ry/workshop")[this GitHub repository].
 
 == Pictures
 
-#img("/assets/events/nix-workshop-2026-02-25/PXL_20260225_151046234.MP.jpg", alt: "picture with Luukas about to start the presentation")
+#img(
+  "/assets/events/nix-workshop-2026-02-25/PXL_20260225_151046234.MP.jpg",
+  alt: "picture with Luukas about to start the presentation",
+)
 #img("/assets/events/nix-workshop-2026-02-25/PXL_20260225_163719339.jpg", alt: "picture with ongoing presentation")
-#img("/assets/events/nix-workshop-2026-02-25/PXL_20260225_163735344.jpg", alt: "picture with pizza, snacks and ongoing presentation")
+#img(
+  "/assets/events/nix-workshop-2026-02-25/PXL_20260225_163735344.jpg",
+  alt: "picture with pizza, snacks and ongoing presentation",
+)
