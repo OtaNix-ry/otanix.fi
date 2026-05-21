@@ -13,9 +13,9 @@ Presentations (tentative):
 
   Introduction to building Lean projects with Nix. I will show how to set up a mathlib-based formalization project and verso-based book using Nix.
 
-2. Luukap Pörtfors: Project showcase – llm-jail
+2. Luukas Pörtfors: Project showcase – llm-jail
 
-  Showcasing a solution for isolating LLM agents in NixOS based MicroVMs
+  Showcasing a solution for isolating LLM agents in NixOS based MicroVMs.
 
 3. `@SomeoneSerge`: Current state of Nixpkgs CUDA (Infra)
 
