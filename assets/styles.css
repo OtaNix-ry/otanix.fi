@@ -68,23 +68,43 @@ footer {
     margin: 0;
 }
 
-.nixos-support-link {
+.nixos-support {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.25rem;
-    text-decoration: none;
-    color: inherit;
+    gap: 0;
+    /* Collapse any stray whitespace-only text spans between the logo and the
+       caption so they don't add a blank line in this flex column. */
+    line-height: 0;
+}
+
+/* The NixOS SVG has a large transparent margin baked in: the artwork fills
+   only ~38.5% of the viewBox height and ~64% of its width, centered. We clip
+   that padding here (fixed box + overflow) so the logo sits tight against the
+   caption, without modifying the vendored SVG. Change the 3rem to resize. */
+.nixos-logo-link {
+    display: block;
+    width: 9.28rem;   /* 3rem * (art width / art height) */
+    height: 3rem;     /* visible logo height */
+    overflow: hidden;
+    line-height: 0;
     border-bottom: none;
 }
 
-.nixos-support-link:hover {
+.nixos-logo-link:hover {
     border-bottom: none;
 }
 
 .nixos-logo {
-    height: 8rem;
     display: block;
+    height: 7.79rem;            /* 3rem / 0.385 -> full padded SVG */
+    margin: -2.4rem 0 0 -2.6rem; /* pull the artwork's padding out of view */
+}
+
+.support-caption {
+    font-size: 0.85rem;
+    line-height: normal;
+    opacity: 0.7;
 }
 
 /* Default Logo State (Light Mode) */
