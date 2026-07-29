@@ -3,9 +3,6 @@
   pkgs ? import nixpkgs { },
   lib ? pkgs.lib,
 }:
-let
-  tola = pkgs.callPackage ./nix/tola.nix { };
-in
 {
   web = pkgs.stdenvNoCC.mkDerivation {
     name = "otanix-fi";
@@ -25,13 +22,13 @@ in
           ]
         );
       };
-    nativeBuildInputs = [ tola ];
+    nativeBuildInputs = [ pkgs.tola ];
     buildPhase = "tola build";
     installPhase = "cp -r public $out";
   };
   shell = pkgs.mkShellNoCC {
     packages = [
-      tola
+      pkgs.tola
     ];
   };
 }
