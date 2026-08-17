@@ -10,11 +10,10 @@ OtaNix ry is teaming up with #link("https://craci.com/")[CRACI] to bring you a K
 Managing Kubernetes doesn’t have to be hard: NixOS offers a unique opportunity to configure the entire computing stack with a single config.
 
 The workshop will focus on these topics:
-
-    Managing remote NixOS machines
-    Handling secrets with Nix
-    Deploying Kubernetes on NixOS via k3s
-    Managing a Kubernetes cluster with Nix-powered GitOps
+ - Managing remote NixOS machines
+ - Handling secrets with Nix
+ - Deploying Kubernetes on NixOS via k3s
+ - Managing a Kubernetes cluster with Nix-powered GitOps
 
 These aren’t tightly coupled, and the experience can be used with other stacks as well!
 
